@@ -1,0 +1,195 @@
+.posTitle{
+	margin-top: 10vh;
+}
+
+.posLink{
+	margin-top: 70vh;
+	text-align: center;
+}
+
+.posLink a{
+	font-size: 60px;
+}
+.colorTitleHeader{
+	margin-left: 50px;
+    color: #27cda5;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: verdana;
+}
+.colorTitleHeader:hover{
+	text-decoration: none;
+	color: #078D65;
+} 
+
+header{
+	background-attachment: fixed;
+	height: 100vh;
+	background:url('../image/IMG_0048.JPG');
+	background-size: 100% 100%;
+}
+
+.arrowDown{
+	text-decoration: none;
+	color: white;
+}
+.arrowDown:hover{
+	text-decoration: none;
+	color: white;
+}
+
+/* change the color of the selected tab in the menu */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: #27cda5;
+}
+
+html{
+	height: 100%;
+}
+body{
+	position: relative;
+	min-height: 100%;
+	padding-bottom: auto;
+	z-index: 1;
+}
+footer .footer1 {
+	position: absolute;
+	width: 100%;
+	background-color: #f8f8f8;
+	color: #078D65;
+	font-weight: bold;
+    font-family: verdana;
+}
+.textIncorrect{
+	font-size: 25px;
+	color:red;
+}
+.nameCompany{
+	font-size: 20px;
+	color: grey;
+}
+.row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+footer .footer1 .linkFooter{
+	text-decoration: none;
+}
+
+footer .footer1 .iconFooterTwitter
+{
+	width:20px;
+	height:20px;
+	background:url('../image/icon_twitter.png') no-repeat;
+}
+
+footer .footer1 .iconFooterTwitter:hover,
+footer .footer1 .iconFooterTwitter:focus,
+footer .footer1 .iconFooterTwitter:active
+{
+	background:url('../image/icon_twitter - Copie.png') no-repeat;
+}
+
+footer .footer1 .iconFooterDeezer
+{
+	width:20px;
+	height:20px;
+	background:url('../image/icon_deezer1.png') no-repeat;
+}
+
+footer .footer1 .iconFooterDeezer:hover,
+footer .footer1 .iconFooterDeezer:focus,
+footer .footer1 .iconFooterDeezer:active
+{
+	background:url('../image/icon_deezer.png') no-repeat;
+}
+
+footer .footer1 .iconContact{
+	width:20px;
+	height:20px;
+	background:url('../image/icon_mail.png') no-repeat;
+}
+
+footer .footer1 .iconContact:hover,
+footer .footer1 .iconContact:focus,
+footer .footer1 .iconContact:active
+{
+	background:url('../image/icon_mail1.png') no-repeat;
+}
+#btnCV{
+	color: #078D65;
+	border-color: #078D65;
+}
+#btnCV:hover{
+	color: white;
+	background-color: #078D65;
+	border-color: #078D65;
+}
+
+.thumb{
+	color: #27cda5;
+}
+
+.thumb:hover {
+	text-decoration: none;
+	color: #078D65;
+}
+.seeMore{
+	display: none;
+}
+
+.thumb:hover .seeMore{
+	display: block;
+	position:absolute;
+	left: 90px;
+	top:80px;
+	z-index:2;
+	background-color: #078D65;
+	color: white;
+	font-size: 20px;
+	font-family: verdana;
+	border-radius: 10px;
+	width: 110px;
+	text-align: center;
+}
+.thumb:hover img{
+	opacity: 0.6;
+}
+
+.quit{
+	display: block;
+	position:absolute;
+	z-index:4;
+	font-size: 20px;
+	width: auto;
+	text-align: right;
+}
+.quit .iconquit{
+	text-decoration: none;
+	color: white;
+
+}
+.quit .iconquit:hover{
+	text-decoration: none;
+	color: #078D65;
+	text-align: left;
+}
+.pic{
+	cursor: pointer;
+}
+
+.saut{
+	height: auto;
+	margin-bottom: 100px;
+}
+.panel-success>.panel-heading{
+	background-color: #078D65;
+	color: white;
+	border-color: #078D65
+}
+.panel-success{
+	border-color: #078D65;
+}

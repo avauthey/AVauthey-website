@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link href="library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" />
+        <title>Antoine Vauthey</title>
+        <script src="library/jquery-3.1.1.min.js"></script>
+		<script src="library/bootstrap/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+    	<header>
+	    	<div class="row">
+	    		<div class="col-lg-12 posTitle">
+					<a class="colorTitleHeader" href="index.php"> Antoine Vauthey website </a>
+	    			
+				</div>
+			</div>
+			<div class="row">
+	    		<div class="col-lg-12 posLink">
+					<a href="#menu" class="arrowDown" id="goToMenu"><span class="glyphicon glyphicon-menu-down" aria-hidden="true" id="idSpan"></span></a>
+				</div>
+			</div>
+			
+		</header>
+			
+<script type="text/javascript">
+    $(document).ready(function(){
+    	function defile(idImg, duree){
+       		time = 0;
+       		while(time != duree){
+	            $(idImg).slideUp(1700).slideDown(1200);
+	            time = time +250;
+	        }
+        } 
+       
+        defile(idSpan, 10000);
+    });
+
+    $('#goToMenu').click(function(){
+    	var speed = 750; // Durée de l'animation (en ms)
+		$('html, body').animate( { scrollTop: $('#menu').offset().top }, speed ); // Go
+    })
+
+</script>
